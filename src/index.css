@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* this css is for navbar avtive part of navbar component */
+.navActive {
+   opacity: 1 !important;
+}
+
+/* this css is for navbar avtive part of navbar component */
+
+
+/* this css are for filter part of product component */
+.producFiltertHover::after {
+   transform: scaleX(0)
+}
+
+.producFiltertHover:hover::after {
+   transform: scaleX(1);
+}
+
+.producFiltertHover.productFilterActive {
+   color: #000;
+}
+
+.producFiltertHover.productFilterActive::after {
+   transform: scaleX(1);
+}
+
+/* this css are for filter part of product component */
